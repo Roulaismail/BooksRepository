@@ -1,0 +1,31 @@
+﻿[
+  {
+    "UserName": "Admin",
+    "PassWord": "123123"
+  },
+  {
+    "UserName": "Admin1",
+    "PassWord": "111111"
+  },
+  {
+    "UserName": "Admin2",
+    "PassWord": "222222"
+  },
+  {
+    "UserName": "Admin3",
+    "PassWord": "333333"
+  },
+  {
+    "UserName": "Admin4",
+    "PassWord": "444444"
+  },
+  {
+    "UserName": "Admin5",
+    "PassWord": "555555"
+  },
+  {
+    "UserName": "Admin6",
+    "PassWord": "666666"
+  }
+]
+
