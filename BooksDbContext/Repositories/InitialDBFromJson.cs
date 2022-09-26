@@ -17,7 +17,7 @@ namespace BooksDbContext.Repositories
         }
         public void InitalDB()
         {
-            string User_File = File.ReadAllText("Defult_Users.json");
+            string User_File = File.ReadAllText("Users.json");
             var Convert_FileToList = JsonSerializer.Deserialize<List<User>>(User_File);
             UsersRepository usersRepository = new UsersRepository();
             usersRepository.addUsers(Convert_FileToList);
