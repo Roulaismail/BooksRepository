@@ -21,6 +21,15 @@ namespace BooksDbContext.Repositories
             var Convert_FileToList = JsonSerializer.Deserialize<List<User>>(User_File);
             UsersRepository usersRepository = new UsersRepository();
             usersRepository.addUsers(Convert_FileToList);
+
+        }
+
+        public void InitalDBBooks()
+        {
+            string Book_File = File.ReadAllText("Books.json");
+            var ConvertFileToList = JsonSerializer.Deserialize<List<Book>>(Book_File);
+            BooksRepository booksRepository = new BooksRepository();
+            booksRepository.AddBooks(ConvertFileToList);
         }
     }
 }

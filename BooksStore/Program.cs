@@ -1,13 +1,13 @@
 ﻿using BooksDbContext.Models;
 using BooksDbContext.Repositories;
 
-using Serilog;
+
 
 namespace BooksStore
 {
     internal class Program
     {
-        Log.Logger  = new LoggerConfiguration()
+        
        
 
       public static InitialDBFromJson initialDBFromJson = new InitialDBFromJson();
@@ -19,11 +19,13 @@ namespace BooksStore
         {
 
             initialDBFromJson.InitalDB();
-            Lb:
+            initialDBFromJson.InitalDBBooks();
+
+        Lb:
             Console.WriteLine("Enter UserName:");
-            string username=Console.ReadLine();
+            string username =  Console.ReadLine();
             Console.WriteLine("Enter PassWord:");
-            string password=Console.ReadLine(); 
+            string password = Console.ReadLine(); 
             User user=new User() { UserName=username,PassWord=password};
             bool isLogged=usersRepository.Login(user);
 
@@ -59,7 +61,7 @@ namespace BooksStore
                             break;
                     }
                     Console.WriteLine("If you need to stop press 0");
-                    string isStop=Console.ReadLine();
+                    string isStop = Console.ReadLine();
                     if (isStop=="0")
                     {
                         break;

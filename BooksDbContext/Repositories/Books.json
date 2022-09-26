@@ -1,0 +1,51 @@
+﻿[
+  {
+    "Title": "In Search of Lost Time",
+    "Description": "Swann's Way, the first part of A la recherche de temps perdu",
+    "Price": 200,
+    "AutherName": "Marcel Proust",
+    "CopiesNumber": 30
+  },
+  {
+    "Title": "Ulysses",
+    "Description": "Ulysses chronicles the passage of Leopold Bloom through Dublin during an ordinary day, June 16, 1904.",
+    "Price": 500,
+    "AutherName": "James Joyce",
+    "CopiesNumber": 70
+  },
+  {
+    "Title": "Don Quixote",
+    "Description": "Alonso Quixano, a retired country gentleman in his fifties, lives in an unnamed section of",
+    "Price": 400,
+    "AutherName": "Miguel de Cervantes",
+    "CopiesNumber": 700
+  },
+  {
+    "Title": "One Hundred Years of Solitude",
+    "Description": "Swann's Way, the first part of A la recherche de temps perdu",
+    "Price": 700,
+    "AutherName": "Gabriel Garcia Marquez",
+    "CopiesNumber": 20
+  },
+  {
+    "Title": "The Great Gatsby",
+    "Description": "Swann's Way, the first part of A la recherche de temps perdu",
+    "Price": 800,
+    "AutherName": "Marcel Proust",
+    "CopiesNumber": 10
+  },
+  {
+    "Title": "Moby Dick",
+    "Description": "Swann's Way, the first part of A la recherche de temps perdu",
+    "Price": 200,
+    "AutherName": "Herman Melville",
+    "CopiesNumber": 50
+  },
+  {
+    "Title": "Hamlet",
+    "Description": "Swann's Way, the first part of A la recherche de temps perdu",
+    "Price": 200,
+    "AutherName": "William Shakespeare",
+    "CopiesNumber": 80
+  }
+]
